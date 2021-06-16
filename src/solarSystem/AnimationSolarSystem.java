@@ -35,8 +35,6 @@ public class AnimationSolarSystem extends JPanel implements ActionListener {
 		
 		// Set window properties.
 		frame.setSize(frameWidth, frameHeight);
-		//does not match the fillRect in paint. How to repaint background?
-		//frame.setExtendedState(JFrame.MAXIMIZED_BOTH); //makes sure the frame is the size of screen. 
 		frame.setBackground(Color.darkGray);
 		frame.setLocationRelativeTo(null);
 		frame.setResizable(true);
